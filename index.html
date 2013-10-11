@@ -1,52 +1,220 @@
 <html>
 <head>
 <title></title>
-<style></style>
+<style>	
+body {
+	font-family: Helvetica, Verdana, Arial;
+	padding:0px;
+	margin-top:0px;
+}
+
+.wrapper {
+	height:1222px;
+	width:892px;
+	margin:0 auto;
+}
+
+.header {
+	height:50px;
+	width:892px;
+	background:white;
+	position:fixed;
+	top:0px;
+	left:auto;
+	right:auto;
+	z-index:3;
+
+}
+
+.header img {
+	margin-top:10px;
+	margin-left:90px;
+	float:left;
+}
+
+.nav {
+	float:right;
+	margin-right:60px;
+	margin-top:20px;
+}
+
+.nav a{
+	margin-right:30px;
+	text-decoration:none;
+	font-family: Helvetica, Verdana, Arial;
+	font-weight: bold;
+}
+
+
+.billboard {
+	height:547px;
+	width:892px;
+}
+.confetti {
+	height:544px;
+	width:829px;
+	position:relative;
+	top:50px;
+	left:auto:
+	right:auto;
+	z-index:1;
+}
+.headline {
+	width:720;
+	height:250px;
+	position:relative;
+	top:-450px;
+	left:80px;
+	z-index:2;
+}
+
+.reviews {
+	height:270px;
+	width:892px;
+	margin-top:70px;
+	background:white;
+}
+
+h2 {
+	text-align:center
+}
+
+.column_wrapper {
+	width:705px;
+	margin:0 auto;
+}
+
+.column_left {
+	height:205px;
+	width:335px;
+	float:left;
+}
+
+.column_right {
+	height:205px;
+	width:335px;
+	float:right;
+}
+
+.review_text {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+
+.profile_pic{
+	height:48px;
+	width:48px;
+	border:1px solid;
+	border-radius:50px;
+	float:left;
+}
+
+
+.profile_name{
+	margin-top:30px;
+	margin-left:60px;
+}
+
+span {
+	color:gray;
+}
+
+.footer{
+	height:233px;
+	width:892px;
+	padding-top:25px;
+	padding-bottom:50px;
+	background:#454D4D;
+}
+
+.site_map_wrapper {
+	width:705px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.site_map_wrapper p {
+	width:174px;
+	float:left;
+}
+</style>
 </head>
 <body>
+	<div class="wrapper">
+        <div class="header">
+            <img src="images/logo.jpg" alt=""/>
+            <div class="nav">
+            <a href="">TOUR</a>
+            <a href="">PRICES</a>
+            <a href="">SIGN IN</a>    
+            </div>
+                
+        </div>
+        
+        <div class="billboard">
+            <img class="confetti" src="images/confetti.jpg" alt=""/>
+            <img  class="headline" src="images/headline.png" alt="">
+        </div>
+        
+        <div class="reviews">
+        	<h2>What people are saying...</h2>
+			<div class="column_wrapper"> 	           
+                <div class="column_left">
+                	<p class="review_text">Enter at your peril, past the vaulted door. Impossible things will happen
+ that the world's never seen before. In Dexter's laboratory lives the smartest boy you've ever seen.
+                    </p>
+                    <img class="profile_pic" src="images/dexter.jpg" alt="">
+                    <p class="profile_name">Baretta<br><span>Young Boy Genius</span></p>
+                    
+                </div>
+                
+                <div class="column_right">
+                <p class="review_text">Don't go to bed, with no price on your head. No, no, don't do it.  Don't do the crime, if you can't do the time, yeah, don't do it. And keep your eye on the sparrow.
 
-Tour
-Pricing
-Sign in
+                    </p>
+                    <img class="profile_pic" src="images/baretta.jpg" alt="">
+                    <p class="profile_name">Dexter<br><span>New Jersey police officer</span></p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+        	<div class="site_map_wrapper">
+            	<p>Product<br><br>
+<a href="">Tour</a><br><br>
+<a href="">Pricing</a><br><br>
+<a href="">Security</a><br><br>
+<a href="">Privacy</a><br><br>
+<a href="">Terms</a><br>
+                </p>
+                <p>Product<br><br>
+<a href="">Tour</a><br><br>
+<a href="">Pricing</a><br><br>
+<a href="">Security</a><br><br>
+<a href="">Privacy</a><br><br>
+<a href="">Terms</a><br>
+                </p>
+                <p>Product<br><br>
+<a href="">Tour</a><br><br>
+<a href="">Pricing</a><br><br>
+<a href="">Security</a><br><br>
+<a href="">Privacy</a><br><br>
+<a href="">Terms</a><br>
+                </p>
+                <p>Product<br><br>
+<a href="">Tour</a><br><br>
+<a href="">Pricing</a><br><br>
+<a href="">Security</a><br><br>
+<a href="">Privacy</a><br><br>
+<a href="">Terms</a><br>
+                </p>
+            </div>
+        </div>
+	</div>
 
-Enter at your peril, past the vaulted door. Impossible things will happen that the world's never seen before. In Dexter's laboratory lives the smartest boy you've ever seen.
-Dexter
-Young Boy Genius
-
-Don't go to bed, with no price on your head. No, no, don't do it. Fon't do the crime, if you can't do the time, yeah, don't do it. And keep your eye on the sparrow.
-Baretta
-New Jersey police officer
 
 
-Product
-
-Tour
-Pricing
-Security
-Privacy
-Terms
-
-Users
-
-Sign In
-Support
-FAQs
-Stories
-
-Company
-
-About Us
-Blog
-Contact
-Press
-
-Follow
-
-Facebook
-Twitter
-LinkedIn
-Vimeo
-YouTube
 
 </body>
 </html>
